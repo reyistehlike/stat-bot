@@ -37,7 +37,7 @@ exports.run = async (client, message, args) => {
 
     let embed = new Discord.MessageEmbed();
     embed.setColor(message.member.displayHexColor)
-    .setFooter(`${message.author.tag} | Powered by Safe Code Reyistehlike`)
+    .setFooter(`${message.author.tag} | Powered by Safe Code ❤️ Reyistehlike`)
     .setThumbnail(message.author.avatarURL({dynamic: true}))
     .setDescription(`You can see your total activity here and you can find information about the activity and the list on this server below.`)
     .addField("Voice | Ranking", `** **\n${voiceList}`)
