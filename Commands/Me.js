@@ -36,7 +36,7 @@ exports.run = async (client, message, args) => {
     messageList = messageList.map((md, index)=> `\`${index + 1}.\` ${client.channels.cache.has(md.Id) ? client.channels.cache.get(md.Id).toString() : "#deleted-channel"}: \`${md.Total} message\``).join("\n");
     let embed = new Discord.MessageEmbed();
     embed.setColor(message.member.displayHexColor)
-    .setFooter(`${message.author.tag} | Powered by Serendia Squad`)
+    .setFooter(`${message.author.tag} | Powered by Safe Code Reyistehlike`)
     .setThumbnail(message.author.avatarURL({dynamic: true}))
     .addField("User Information",` 
     
